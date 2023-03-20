@@ -1,9 +1,12 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
+import { HashRouter} from 'react-router-dom'
 
 export default function Navbar() {
+    
     const cartobj = useSelector(store=>store.cartReducer)
     return (
+        <HashRouter>
         <div>
             {/* <h1>This is Component Navbar</h1> */}
 
@@ -31,6 +34,8 @@ export default function Navbar() {
             </nav>
 
         </div>
-
+        </HashRouter>
     )
+    
+    
 }
