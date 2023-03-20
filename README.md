@@ -23,7 +23,7 @@
 
 ## Source
 
-[Source Link](https://github.com/canon20paul/Redux-ecom)
+[Source Link](https://github.com/canon20paul/E-commerce-React-Redux)
 
 
 ## Getting Started
