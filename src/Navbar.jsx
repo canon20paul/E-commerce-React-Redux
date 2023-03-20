@@ -6,7 +6,7 @@ export default function Navbar() {
     
     const cartobj = useSelector(store=>store.cartReducer)
     return (
-        <HashRouter>
+        // <HashRouter>
         <div>
             {/* <h1>This is Component Navbar</h1> */}
 
@@ -34,7 +34,7 @@ export default function Navbar() {
             </nav>
 
         </div>
-        </HashRouter>
+        // </HashRouter>
     )
     
     
