@@ -18,7 +18,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://github.com/canon20paul/Redux-ecom)
+[Live Demo Link](https://canon20paul.github.io/E-commerce-React-Redux/)
 
 
 ## Source
