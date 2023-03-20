@@ -30,8 +30,9 @@ function App() {
     <div className="App">
           <Provider store={store}>
                   <PersistGate persistor={persistor}>
+          <HashRouter>
                             <Navbar />
-                                        <HashRouter>
+                                        
                                                             <Routes>
                                                                       <Route path='/' element={<Items />} />
                                                                       <Route path='/additem' element={<Additem />} />
