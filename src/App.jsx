@@ -28,12 +28,13 @@ function App() {
 
   return (
     <div className="App">
-      <HashRouter>
+      
           <Provider store={store}>
                   <PersistGate persistor={persistor}>
           
           
                             <Navbar />
+          <HashRouter>
                                                             <Routes>
                                                             
               <Route path='/E-commerce-React-Redux' element={<Items />} />
@@ -41,11 +42,11 @@ function App() {
               <Route path='/E-commerce-React-Redux/cart' element={<Cart />} />
                                                             </Routes>
          
-        
+          </HashRouter>
                                         <Footer/>
                   </PersistGate>
           </Provider>
-      </HashRouter>
+      
     </div>
   );
 }
