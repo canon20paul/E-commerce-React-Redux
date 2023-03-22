@@ -31,7 +31,7 @@ function App() {
       
           <Provider store={store}>
                   <PersistGate persistor={persistor}>
-          <BrowserRouter>
+          {/* <BrowserRouter> */}
           <HashRouter>
           
                             <Navbar />
@@ -42,7 +42,7 @@ function App() {
               <Route path='/E-commerce-React-Redux/cart' element={<Cart />} />
                                                             </Routes>
             </HashRouter>
-        </BrowserRouter>
+        {/* </BrowserRouter> */}
                                         <Footer/>
                   </PersistGate>
           </Provider>
