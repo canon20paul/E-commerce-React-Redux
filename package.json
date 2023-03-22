@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://canon20paul.github.io/E-commerce-React-Redux/",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
