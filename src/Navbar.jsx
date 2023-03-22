@@ -1,6 +1,6 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
-import { HashRouter} from 'react-router-dom'
+
 
 export default function Navbar() {
     
@@ -27,8 +27,10 @@ export default function Navbar() {
 
                     <ul className="navbar-nav mr-auto">
                         <li className='nav-item'>
-                            <a href="/cart" className='nav-link'>Cart  {cartobj.cartitems.length}</a>
-                        </li>
+                        
+                            <a className="nav-link" href="/cart">Cart  {cartobj.cartitems.length}</a>
+
+                         </li>
                     </ul>
                 </div>
             </nav>
