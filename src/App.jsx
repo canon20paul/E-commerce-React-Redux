@@ -5,7 +5,7 @@ import Items from './Items';
 import Additem from './Additem';
 import Cart from './Cart';
 import Footer from './Footer';
-import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom'
+import {BrowserRouter, Route, Routes } from 'react-router-dom'
 import bootstrap from '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import {persistStore, persistReducer} from 'redux-persist'
 import storage from 'redux-persist/lib/storage'
@@ -31,7 +31,7 @@ function App() {
       
           <Provider store={store}>
                   <PersistGate persistor={persistor}>
-          <HashRouter>
+          <BrowserRouter>
           
                             <Navbar />
                                                             <Routes>
@@ -41,7 +41,7 @@ function App() {
               <Route path='/E-commerce-React-Redux/cart' element={<Cart />} />
                                                             </Routes>
          
-        </HashRouter>
+        </BrowserRouter>
                                         <Footer/>
                   </PersistGate>
           </Provider>
